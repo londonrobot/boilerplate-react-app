@@ -38,18 +38,6 @@ const App = () => {
             </Routes>
           </SomethingWithMatter>
         </QueryClientProvider>
-        {/* <QueryClientProvider client={queryClient}>
-          <SomethingWithMatter>
-            {userId ? <Account /> : <AuthForm></AuthForm>}
-
-          </SomethingWithMatter>
-
-          <Routes>
-            <Route path="/" element={<SomethingWithMatter />} />
-            <Route path="/page1" element={<Page1 />} />
-            <Route path="/page2" element={<Page2 />} />
-          </Routes>
-        </QueryClientProvider> */}
       </ContextUser.Provider>
     </BrowserRouter>
   );
