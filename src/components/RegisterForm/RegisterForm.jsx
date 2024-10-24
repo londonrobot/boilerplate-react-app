@@ -2,7 +2,7 @@ import "./RegisterForm.css";
 import { useState } from "react";
 import { useMutation } from '@tanstack/react-query';
 import { registerUser } from '../../api/api';
-import { Button } from "../Button";
+import { Button } from "../ui/Button";
 
 export const RegisterForm = () => {
 
